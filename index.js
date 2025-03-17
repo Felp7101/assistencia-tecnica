@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/sobre?", (req,res) => {
-        res.send("aboutUs")
+        res.render("aboutUs")
 })
 
 
